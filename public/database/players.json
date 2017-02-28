@@ -1,0 +1,18 @@
+{
+  "players": [{
+    "user_id": 1,
+    "name": "Felipe",
+    "tel": "1199",
+    "image": "http://lorempixel.com/50/50/"
+  }, {
+    "user_id": 2,
+    "name": "Chico",
+    "tel": "1188",
+    "image": "http://lorempixel.com/50/51/"
+  }, {
+    "user_id": 3,
+    "name": "Luca",
+    "tel": "1177",
+    "image": "http://lorempixel.com/50/52/"
+  }]
+}
