@@ -1,0 +1,33 @@
+{
+  "turn": {
+    "jackpot": 350,
+    "date": "10/01/2017"
+  },
+  "steps": [
+    "10/01",
+    "24/01",
+    "07/02",
+    "21/02",
+    "07/03",
+    "21/03"
+  ],
+  "ranking": [{
+    "name": "Gustavo",
+    "avatar": "http://lorempixel.com/50/50/",
+    "points": 280,
+    "jackpot": 250,
+    "steps": [5, 1, 4, 1, "", ""]
+  }, {
+    "name": "Julio",
+    "avatar": "http://lorempixel.com/50/51/",
+    "points": 205,
+    "jackpot": 170,
+    "steps": [1, 9, 3, 5, "", ""]
+  }, {
+    "name": "Japa",
+    "avatar": "http://lorempixel.com/51/50/",
+    "points": 195,
+    "jackpot": 130,
+    "steps": [6, 8, 1, "out", "", ""]
+  }]
+}
