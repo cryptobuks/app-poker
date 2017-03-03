@@ -6,7 +6,7 @@ import { AppContainer } from 'react-hot-loader';
 import App from './app';
 
 /**
- * Arquivo principal para configuração do react-hot-loader + componente principal
+ * Arquivo principal para configuração do react-hot-loader + componente principal (app)
  */
 
 const renderApp = (NextApp) => {

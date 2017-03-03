@@ -1,14 +1,16 @@
 'use strict'
 
 import React from 'react';
-import utils from './utils';
+import Ranking from './components/Ranking.js';
 
-const App = React.createClass({
-  render: function() {
+class App extends React.Component {
+  render() {
     return (
-      <div>Tudo funcionando :P </div>
+      <div>
+        <Ranking />
+      </div>
     )
   }
-})
+}
 
 export default App;

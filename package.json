@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "axios": "^0.15.3",
     "babel-core": "^6.22.1",
     "babel-jest": "^19.0.0",
     "babel-loader": "^6.2.10",
