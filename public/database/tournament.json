@@ -12,19 +12,22 @@
     "21/03"
   ],
   "ranking": [{
-    "name": "Gustavo",
+    "slug": "gustavo-galrao",
+    "name": "Gustavo Galrão",
     "avatar": "http://lorempixel.com/50/50/",
     "points": 280,
     "jackpot": 250,
     "steps": [5, 1, 4, 1, "", ""]
   }, {
-    "name": "Julio",
+    "slug": "julio-bertini",
+    "name": "Julio Bertini",
     "avatar": "http://lorempixel.com/50/51/",
     "points": 205,
     "jackpot": 170,
     "steps": [1, 9, 3, 5, "", ""]
   }, {
-    "name": "Japa",
+    "slug": "eduardo-japa",
+    "name": "Eduardo Japa",
     "avatar": "http://lorempixel.com/51/50/",
     "points": 195,
     "jackpot": 130,
