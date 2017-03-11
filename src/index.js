@@ -1,9 +1,9 @@
 'use strict'
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { AppContainer } from 'react-hot-loader';
-import App from './app';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { AppContainer } from 'react-hot-loader'
+import App from './app'
 
 /**
  * Arquivo principal para configuração do react-hot-loader + componente principal (app)

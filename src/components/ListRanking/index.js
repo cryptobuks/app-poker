@@ -1,6 +1,6 @@
 'use strict'
 
-import React from 'react';
+import React from 'react'
 
 class ListRanking extends React.Component {
 
@@ -29,4 +29,4 @@ class ListRanking extends React.Component {
   }
 }
 
-export default ListRanking;
+export default ListRanking

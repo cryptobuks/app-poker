@@ -12,7 +12,7 @@
 * Configurar axiosjs para consulta do json: **OK**
 * Montar tabela com o resultado do torneio: **OK**
 * Configurar framework css (https://material-ui.com/): **OK**
-* CSS Modules (https://github.com/gajus/react-css-modules): ?
+* CSS Modules (https://github.com/css-modules/webpack-demo): **OK**
 * Ajustar tabela com scroll horizontal para melhor visualizar os dados: ?
 
 ## Parte 2:

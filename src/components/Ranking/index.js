@@ -1,8 +1,10 @@
 'use strict'
 
-import React from 'react';
-import ListRanking from './ListRanking'
-import api from '../libs/api';
+import React from 'react'
+import api from '../../libs/api'
+import ListRanking from '../ListRanking'
+
+import './style.css'
 
 class Ranking extends React.Component {
   constructor(props) {
@@ -40,7 +42,7 @@ class Ranking extends React.Component {
           <span>Carregando...</span>
           :
           <div>
-            <span>Pote atual: {this.state.turn.jackpot}</span>
+            <span className="example">Pote atual: {this.state.turn.jackpot}</span>
             <span>Inicio do torneio: {this.state.turn.date}</span>
 
             <table>
@@ -68,4 +70,4 @@ class Ranking extends React.Component {
   }
 }
 
-export default Ranking;
+export default Ranking

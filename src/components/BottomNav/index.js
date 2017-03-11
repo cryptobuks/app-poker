@@ -1,11 +1,11 @@
 'use strict'
 
-import React from 'react';
-import Paper from 'material-ui/Paper';
-import FontIcon from 'material-ui/FontIcon';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import {BottomNavigation, BottomNavigationItem} from 'material-ui/BottomNavigation';
-import injectTapEventPlugin from 'react-tap-event-plugin';
+import React from 'react'
+import Paper from 'material-ui/Paper'
+import FontIcon from 'material-ui/FontIcon'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import {BottomNavigation, BottomNavigationItem} from 'material-ui/BottomNavigation'
+import injectTapEventPlugin from 'react-tap-event-plugin'
 
 const usersIcon = <FontIcon className="material-icons">group</FontIcon>;
 const rankingIcon = <FontIcon className="material-icons">list</FontIcon>;
@@ -56,4 +56,4 @@ class BottomNav extends React.Component {
   }
 }
 
-export default BottomNav;
+export default BottomNav

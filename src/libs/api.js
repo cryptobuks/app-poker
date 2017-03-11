@@ -1,6 +1,6 @@
 'use strict'
 
-import axios from 'axios';
+import axios from 'axios'
 
 const API = {
 
@@ -12,4 +12,4 @@ const API = {
   }
 }
 
-export default API;
+export default API

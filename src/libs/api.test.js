@@ -1,8 +1,7 @@
 'use strict'
 
-import http from 'http';
-import API from './api';
-// const API = 'http://localhost:3000/public/database/players.json';
+import http from 'http'
+import API from './api'
 
 describe('Testando a API', () => {
 
@@ -10,7 +9,7 @@ describe('Testando a API', () => {
 
   beforeEach((done) => {
 
-    http.get('http://localhost:3000/public/database/players.json', (response) => {
+    http.get('/public/database/players.json', (response) => {
       service = response;
       done();
 
