@@ -2,7 +2,7 @@
 
 ### Para desenvolvimento
 * ``yarn`` para instalar as depêndencias
-* ``yarn start`` para webpack-dev-server
+* ``yarn start`` para webpack-dev-server (acesse http://localhost:3000/)
 * ``yarn test`` para watch de testes com jets durante desenvolvimento
 
 ## Parte 1:
@@ -13,7 +13,7 @@
 * Montar tabela com o resultado do torneio: **OK**
 * Configurar framework css (https://material-ui.com/): **OK**
 * CSS Modules (https://github.com/css-modules/webpack-demo): **OK**
-* Ajustar tabela com scroll horizontal para melhor visualizar os dados: ?
+* Ajustar tabela com scroll horizontal para melhor visualizar os dados: **OK**
 
 ## Parte 2:
 * Configurar rota para acessar perfil do jogador (/player/name-player): ?

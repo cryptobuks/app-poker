@@ -4,6 +4,9 @@ import React from 'react'
 import api from '../../libs/api'
 import ListRanking from '../ListRanking'
 import utils from '../../utils'
+import Paper from 'material-ui/Paper'
+import FontIcon from 'material-ui/FontIcon'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
 import './style.css'
 
@@ -43,8 +46,19 @@ class Ranking extends React.Component {
           <span>Carregando...</span>
           :
           <div>
-            <span>Pote atual: {utils.formatToReal(this.state.turn.jackpot)}</span>
-            <span>Inicio do torneio: {this.state.turn.date}</span>
+            <MuiThemeProvider>
+              <div className="turn-info">
+                <Paper className="turn-info-pot" zDepth={1}>
+                  <FontIcon className="material-icons">monetization_on</FontIcon>
+                  <span className="turn-info-pot-text">{utils.formatToReal(this.state.turn.jackpot)}</span>
+                </Paper>
+
+                <Paper className="turn-info-date" zDepth={1}>
+                  <FontIcon className="material-icons">date_range</FontIcon>
+                  <span className="turn-info-pot-text">{this.state.turn['next-step']}</span>
+                </Paper>
+              </div>
+            </MuiThemeProvider>
 
             <table className="ranking-table">
               <thead>
