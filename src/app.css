@@ -1,0 +1,10 @@
+body {
+  color: #000;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: normal;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  /* Fontes padrões dos sistemas windows/mac/linux/android/iphone */
+  font-family: -apple-system, "San Francisco", "Helvetica Neue", Helvetica, "Lucida Grande", Roboto, "Segoe UI", Arial, Ubuntu, sans-serif;
+}
