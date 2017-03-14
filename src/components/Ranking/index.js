@@ -3,6 +3,7 @@
 import React from 'react'
 import api from '../../libs/api'
 import ListRanking from '../ListRanking'
+import utils from '../../utils'
 
 import './style.css'
 
@@ -42,21 +43,21 @@ class Ranking extends React.Component {
           <span>Carregando...</span>
           :
           <div>
-            <span className="example">Pote atual: {this.state.turn.jackpot}</span>
+            <span>Pote atual: {utils.formatToReal(this.state.turn.jackpot)}</span>
             <span>Inicio do torneio: {this.state.turn.date}</span>
 
-            <table>
+            <table className="ranking-table">
               <thead>
                 <tr>
-                  <td>Posição</td>
-                  <td>Nome</td>
-                  <td>Pontos</td>
+                  <th>Posição</th>
+                  <th className="ranking-table-name">Nome</th>
+                  <th>Pontos</th>
                   {this.state.steps.map((step, key) => {
                     return (
-                      <td key={key}>{step}</td>
+                      <th key={key}>{step}</th>
                     )
                   })}
-                  <td>Prêmio</td>
+                  <th>Prêmio</th>
                 </tr>
               </thead>
 

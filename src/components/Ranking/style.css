@@ -1,4 +1,69 @@
-.example {
-  color: #fff;
-  background: blue;
+.ranking-table {
+  display: block;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  border-spacing: 0;
+  position: relative;
+  border-collapse: collapse;
+  background-color: transparent;
+}
+
+.ranking-table th,
+.ranking-table td {
+  padding: 8px;
+  height: 30px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.ranking-table th.ranking-table-name,
+.ranking-table td.ranking-table-name {
+  height: 40px;
+  white-space: normal;
+}
+
+.ranking-table td:last-child {
+  border-right: 0;
+}
+
+.ranking-table thead th {
+  font-weight: normal;
+  background-color: rgb(165, 238, 247);
+}
+
+.ranking-table tbody > tr:nth-child(odd) > td,
+.ranking-table tbody > tr:nth-child(odd) > th {
+  background-color: #f8f8f8;
+}
+
+.ranking-table thead,
+.ranking-table tbody,
+.ranking-table th,
+.ranking-table td,
+.ranking-table tr {
+  display: block;
+}
+
+.ranking-table tbody tr {
+  display: inline-block;
+}
+
+.ranking-table thead {
+  float: left;
+}
+
+.ranking-table tbody {
+  width: auto;
+  overflow-x: auto;
+  position: relative;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.ranking-table tbody td {
+  width: 50px;
+  text-align: center;
 }
