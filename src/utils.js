@@ -1,5 +1,14 @@
 'use strict'
 
-export const sum = (a, b) => {
-  return a + b
+const utils = {
+
+  /**
+   * Converte número int e float para real
+   * @param {number} number
+   */
+  formatToReal: (number) => {
+    return parseFloat(number).toFixed(2).replace('.', ',')
+  }
 }
+
+export default utils

@@ -1,6 +1,7 @@
 'use strict'
 
 import React from 'react'
+import utils from '../../utils'
 
 class ListRanking extends React.Component {
 
@@ -12,14 +13,14 @@ class ListRanking extends React.Component {
             return (
               <tr key={key}>
                 <td>{key + 1}</td>
-                <td>{player.name}</td>
+                <td className="ranking-table-name">{player.name}</td>
                 <td>{player.points}</td>
                 {player.steps.map((step, key) => {
                   return (
                     <td key={key}>{step}</td>
                   )
                 })}
-                <td>{player.jackpot}</td>
+                <td>{utils.formatToReal(player.jackpot)}</td>
               </tr>
             )
           })}
