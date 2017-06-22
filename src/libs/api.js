@@ -2,21 +2,27 @@
 
 import axios from 'axios'
 
+let pathDatabase = '/public/';
+
+if(process.env.NODE_ENV == 'production') {
+  pathDatabase = ''
+}
+
 const API = {
 
   // Torneios
   getTournaments: () => {
-    return axios.get('http://localhost:3000/public/database/tournaments.json');
+    return axios.get(pathDatabase + 'database/tournaments.json');
   },
 
   // Etapas cadastradas
   getSteps: () => {
-    return axios.get('http://localhost:3000/public/database/steps.json');
+    return axios.get(pathDatabase + 'database/steps.json');
   },
 
   // Jogadores
   getPlayers: () => {
-    return axios.get('http://localhost:3000/public/database/players.json');
+    return axios.get(pathDatabase + 'database/players.json');
   }
 }
 

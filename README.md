@@ -5,6 +5,9 @@
 * ``yarn start`` para webpack-dev-server (acesse http://localhost:3000/)
 * ``yarn test`` para watch de testes com jets durante desenvolvimento
 
+### Para produção
+* ``yarn build`` gera bundle para produção na pasta **public**
+
 ## Parte 1:
 * Criar ambiente (webpack + react + jsx): **OK**
 * Criar estrutura de json com o torneio atual: **OK**
