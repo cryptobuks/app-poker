@@ -28,6 +28,7 @@
   "scripts": {
     "start": "webpack-dashboard -- node server.js",
     "build": "webpack --progress --config webpack.prod.config -p",
+    "serverProd": "webpack-dev-server --content-base public/",
     "test": "jest --env=jsdom --watch"
   },
   "jest": {

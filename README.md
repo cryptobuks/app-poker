@@ -1,12 +1,13 @@
 # App Poker
 
 ### Para desenvolvimento
-* ``yarn`` para instalar as depêndencias
-* ``yarn start`` para webpack-dev-server (acesse http://localhost:3000/)
-* ``yarn test`` para watch de testes com jets durante desenvolvimento
+* ``yarn`` instala as depêndencias
+* ``yarn start`` servidor com react-hot-loader (acesse http://localhost:3000/)
+* ``yarn test`` testes com jets
 
 ### Para produção
 * ``yarn build`` gera bundle para produção na pasta **public**
+* ``yarn serverPublic`` sobe servidor para testar o bundle gerado na pasta **public**
 
 ## Parte 1:
 * Criar ambiente (webpack + react + jsx): **OK**
@@ -19,6 +20,7 @@
 * Ajustar tabela com scroll horizontal para melhor visualizar os dados: **OK**
 
 ## Parte 2:
+* Configurar bundle para produção: ?
 * Configurar rota para acessar perfil do jogador (/player/name-player): ?
 * Perfil do jogador: colocar gráfico de performance do torneio atual: ?
 
