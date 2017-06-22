@@ -61,6 +61,11 @@
   float: left;
 }
 
+/* ajuste fino de layout por causa do scroll horizontal */
+.ranking-table thead th:last-child {
+  padding-bottom: 24px;
+}
+
 .ranking-table tbody {
   width: auto;
   overflow-x: auto;

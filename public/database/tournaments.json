@@ -1,18 +1,6 @@
 [
   {
     "idTourney": 1,
-    "jackpotAcumulate": 200,
-    "steps": [
-      "18/01",
-      "01/01",
-      "16/02",
-      "25/02",
-      "06/03",
-      "20/03"
-    ]
-  },
-  {
-    "idTourney": 2,
     "jackpotAcumulate": 520,
     "steps": [
       "18/04",

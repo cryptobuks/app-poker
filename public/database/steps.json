@@ -1,74 +1,410 @@
 [
   {
     "idTourney": 1,
-    "stepDate": "01/05",
+    "stepDate": "18/04",
+    "player": "zoio",
+    "position": 2,
+    "score": 80,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "18/04",
+    "player": "gaucho",
+    "position": 7,
+    "score": 30,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "18/04",
+    "player": "gustavo-galrao",
+    "position": 3,
+    "score": 60,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "18/04",
     "player": "felipe-chama",
-    "score": 100,
+    "position": 5,
+    "score": 40,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "18/04",
+    "player": "julio-bertini",
+    "position": 4,
+    "score": 50,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "18/04",
+    "player": "chico",
     "position": 1,
-    "jackpot": 100
+    "score": 100,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "18/04",
+    "player": "bruno-bertini",
+    "position": 8,
+    "score": 25,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "18/04",
+    "player": "luca",
+    "position": 6,
+    "score": 35,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "18/04",
+    "player": "gustavo-carpi",
+    "position": 9,
+    "score": 20,
+    "jackpot": 0
   },
   {
     "idTourney": 1,
     "stepDate": "01/05",
-    "player": "chico",
-    "score": 80,
+    "player": "zoio",
+    "position": 3,
+    "score": 60,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "01/05",
+    "player": "gaucho",
+    "position": 5,
+    "score": 40,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "01/05",
+    "player": "gustavo-galrao",
+    "position": 6,
+    "score": 35,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "01/05",
+    "player": "felipe-chama",
+    "position": 8,
+    "score": 25,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "01/05",
+    "player": "julio-bertini",
     "position": 2,
-    "jackpot": 80
+    "score": 80,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "01/05",
+    "player": "raphael",
+    "position": 1,
+    "score": 100,
+    "jackpot": 0
   },
   {
     "idTourney": 1,
     "stepDate": "01/05",
     "player": "bruno-bertini",
-    "score": 60,
-    "position": 3,
-    "jackpot": 60
+    "position": 7,
+    "score": 30,
+    "jackpot": 0
   },
   {
-    "idTourney": 2,
-    "stepDate": "18/04",
-    "player": "felipe-chama",
-    "score": 100,
+    "idTourney": 1,
+    "stepDate": "01/05",
+    "player": "luca",
+    "position": 4,
+    "score": 50,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "01/05",
+    "player": "ze",
+    "position": 9,
+    "score": 20,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "01/05",
+    "player": "japa",
+    "position": 10,
+    "score": 10,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "16/05",
+    "player": "zoio",
+    "position": 4,
+    "score": 50,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "16/05",
+    "player": "gaucho",
     "position": 1,
-    "jackpot": 80
-  },
-  {
-    "idTourney": 2,
-    "stepDate": "18/04",
-    "player": "chico",
-    "score": 80,
-    "position": 2,
-    "jackpot": 80
-  },
-  {
-    "idTourney": 2,
-    "stepDate": "18/04",
-    "player": "bruno-bertini",
-    "score": 60,
-    "position": 3,
-    "jackpot": 60
-  },
-  {
-    "idTourney": 2,
-    "stepDate": "01/05",
-    "player": "felipe-chama",
     "score": 100,
-    "position": 1,
-    "jackpot": 100
+    "jackpot": 0
   },
   {
-    "idTourney": 2,
-    "stepDate": "01/05",
-    "player": "chico",
-    "score": 80,
+    "idTourney": 1,
+    "stepDate": "16/05",
+    "player": "gustavo-galrao",
     "position": 2,
-    "jackpot": 80
+    "score": 80,
+    "jackpot": 0
   },
   {
-    "idTourney": 2,
-    "stepDate": "01/05",
-    "player": "bruno-bertini",
-    "score": 60,
+    "idTourney": 1,
+    "stepDate": "16/05",
+    "player": "felipe-chama",
     "position": 3,
-    "jackpot": 60
+    "score": 60,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "16/05",
+    "player": "raphael",
+    "position": 5,
+    "score": 40,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "16/05",
+    "player": "bruno-bertini",
+    "position": 7,
+    "score": 30,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "25/05",
+    "player": "zoio",
+    "position": 2,
+    "score": 80,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "25/05",
+    "player": "gaucho",
+    "position": 1,
+    "score": 100,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "25/05",
+    "player": "gustavo-galrao",
+    "position": 4,
+    "score": 50,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "25/05",
+    "player": "felipe-chama",
+    "position": 7,
+    "score": 30,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "25/05",
+    "player": "julio-bertini",
+    "position": 3,
+    "score": 60,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "25/05",
+    "player": "raphael",
+    "position": 8,
+    "score": 25,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "25/05",
+    "player": "bruno-bertini",
+    "position": 5,
+    "score": 40,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "25/05",
+    "player": "luca",
+    "position": 6,
+    "score": 35,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "06/06",
+    "player": "zoio",
+    "position": 4,
+    "score": 50,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "06/06",
+    "player": "gaucho",
+    "position": 2,
+    "score": 80,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "06/06",
+    "player": "gustavo-galrao",
+    "position": 3,
+    "score": 60,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "06/06",
+    "player": "felipe-chama",
+    "position": 1,
+    "score": 100,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "06/06",
+    "player": "julio-bertini",
+    "position": 8,
+    "score": 25,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "06/06",
+    "player": "chico",
+    "position": 5,
+    "score": 40,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "06/06",
+    "player": "raphael",
+    "position": 9,
+    "score": 20,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "06/06",
+    "player": "bruno-bertini",
+    "position": 6,
+    "score": 35,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "06/06",
+    "player": "luca",
+    "position": 7,
+    "score": 30,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "20/06",
+    "player": "zoio",
+    "position": 1,
+    "score": 100,
+    "jackpot": 420
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "20/06",
+    "player": "gaucho",
+    "position": 3,
+    "score": 60,
+    "jackpot": 410
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "20/06",
+    "player": "gustavo-galrao",
+    "position": 5,
+    "score": 40,
+    "jackpot": 325
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "20/06",
+    "player": "felipe-chama",
+    "position": 8,
+    "score": 25,
+    "jackpot": 280
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "20/06",
+    "player": "julio-bertini",
+    "position": 9,
+    "score": 20,
+    "jackpot": 235
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "20/06",
+    "player": "chico",
+    "position": 2,
+    "score": 80,
+    "jackpot": 220
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "20/06",
+    "player": "raphael",
+    "position": 6,
+    "score": 35,
+    "jackpot": 220
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "20/06",
+    "player": "bruno-bertini",
+    "position": 4,
+    "score": 50,
+    "jackpot": 210
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "20/06",
+    "player": "luca",
+    "position": 7,
+    "score": 30,
+    "jackpot": 180
   }
 ]
