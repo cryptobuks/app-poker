@@ -6,21 +6,21 @@ import utils from '../../utils'
 class ListRanking extends React.Component {
 
   render() {
-    if(this.props.listPlayers) {
+    if(this.props.listRanking) {
       return (
         <tbody>
-          {this.props.listPlayers.map((player, key) => {
+          {this.props.listRanking.map((player, key) => {
             return (
               <tr key={key}>
                 <td>{key + 1}</td>
-                <td className="ranking-table-name">{player.name}</td>
-                <td>{player.points}</td>
+                <td className="ranking-table-name">{this.props.players[player.slug].name}</td>
+                <td>{player.scoreAcumulate}</td>
                 {player.steps.map((step, key) => {
                   return (
-                    <td key={key}>{step}</td>
+                    <td key={key}>{step.position}</td>
                   )
                 })}
-                <td>{utils.formatToReal(player.jackpot)}</td>
+                <td>{utils.formatToReal(player.jackpotAcumulate)}</td>
               </tr>
             )
           })}

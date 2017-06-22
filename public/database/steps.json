@@ -1,0 +1,74 @@
+[
+  {
+    "idTourney": 1,
+    "stepDate": "01/05",
+    "player": "felipe-chama",
+    "score": 100,
+    "position": 1,
+    "jackpot": 100
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "01/05",
+    "player": "chico",
+    "score": 80,
+    "position": 2,
+    "jackpot": 80
+  },
+  {
+    "idTourney": 1,
+    "stepDate": "01/05",
+    "player": "bruno-bertini",
+    "score": 60,
+    "position": 3,
+    "jackpot": 60
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "18/04",
+    "player": "felipe-chama",
+    "score": 100,
+    "position": 1,
+    "jackpot": 80
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "18/04",
+    "player": "chico",
+    "score": 80,
+    "position": 2,
+    "jackpot": 80
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "18/04",
+    "player": "bruno-bertini",
+    "score": 60,
+    "position": 3,
+    "jackpot": 60
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "01/05",
+    "player": "felipe-chama",
+    "score": 100,
+    "position": 1,
+    "jackpot": 100
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "01/05",
+    "player": "chico",
+    "score": 80,
+    "position": 2,
+    "jackpot": 80
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "01/05",
+    "player": "bruno-bertini",
+    "score": 60,
+    "position": 3,
+    "jackpot": 60
+  }
+]
