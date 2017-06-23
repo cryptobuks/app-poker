@@ -2,6 +2,7 @@
 
 import React from 'react'
 import utils from '../../utils'
+import PropTypes from 'prop-types'
 
 class ListRanking extends React.Component {
 
@@ -28,6 +29,11 @@ class ListRanking extends React.Component {
       )
     }
   }
+}
+
+ListRanking.propTypes = {
+  players: PropTypes.object,
+  listRanking: PropTypes.array
 }
 
 export default ListRanking
