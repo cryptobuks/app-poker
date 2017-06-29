@@ -1,4 +1,11 @@
 
+.title-ranking {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 24px;
+  color: #afafaf !important;
+}
+
 /* Tabela de Classificação */
 .ranking-table * {
   box-sizing: initial;
@@ -37,12 +44,18 @@
 
 .ranking-table thead th {
   font-weight: normal;
-  background-color: rgb(165, 238, 247);
+  background-color: #0097a7;
+}
+
+.ranking-table tbody > tr:nth-child(even) > td,
+.ranking-table tbody > tr:nth-child(even) > th {
+  color: #ffffff;
 }
 
 .ranking-table tbody > tr:nth-child(odd) > td,
 .ranking-table tbody > tr:nth-child(odd) > th {
-  background-color: #f8f8f8;
+  color: #ffffff;
+  background-color: #303030;
 }
 
 .ranking-table thead,
@@ -62,9 +75,11 @@
 }
 
 /* ajuste fino de layout por causa do scroll horizontal */
+/*
 .ranking-table thead th:last-child {
   padding-bottom: 24px;
 }
+*/
 
 .ranking-table tbody {
   width: auto;

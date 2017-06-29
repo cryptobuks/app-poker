@@ -1,6 +1,7 @@
 [
   {
     "idTourney": 1,
+    "nameTourney": "Torneio 1",
     "jackpotAcumulate": 520,
     "steps": [
       "18/04",

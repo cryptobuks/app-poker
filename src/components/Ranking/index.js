@@ -7,6 +7,8 @@ import utils from '../../utils'
 import Paper from 'material-ui/Paper'
 import FontIcon from 'material-ui/FontIcon'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme'
+import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import _ from 'underscore'
 
 import './style.css'
@@ -135,20 +137,13 @@ class Ranking extends React.Component {
           <span>Carregando...</span>
           :
           <div>
-            <MuiThemeProvider>
-              <div className="turn-info">
-                <Paper className="turn-info-pot" zDepth={1}>
-                  <FontIcon className="material-icons">monetization_on</FontIcon>
-                  <span className="turn-info-pot-text">{utils.formatToReal(this.state.tourney.jackpotAcumulate)}</span>
+            <div>
+              <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
+                <Paper className="title-ranking" zDepth={2}>
+                  Classificação {this.state.tourney.nameTourney}
                 </Paper>
-
-                <Paper className="turn-info-date" zDepth={1}>
-                  <FontIcon className="material-icons">date_range</FontIcon>
-                  <span className="turn-info-pot-text">2</span>
-                </Paper>
-              </div>
-            </MuiThemeProvider>
-
+              </MuiThemeProvider>
+            </div>
             <table className="ranking-table">
               <thead>
                 <tr>
