@@ -3,6 +3,7 @@
 import React from 'react'
 import api from '../../libs/api'
 import ListRanking from '../ListRanking'
+import Loading from '../Loading'
 import utils from '../../utils'
 import Paper from 'material-ui/Paper'
 import FontIcon from 'material-ui/FontIcon'
@@ -134,7 +135,7 @@ class Ranking extends React.Component {
     return(
       <div>
         {this.state.ranking.length == 0 ?
-          <span>Carregando...</span>
+          <Loading />
           :
           <div>
             <div>
