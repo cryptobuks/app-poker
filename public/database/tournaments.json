@@ -1,7 +1,7 @@
 [
   {
     "idTourney": 1,
-    "nameTourney": "Torneio 1",
+    "nameTourney": "Torneio 2017-1",
     "jackpotAcumulate": 520,
     "steps": [
       "18/04",
@@ -10,6 +10,19 @@
       "25/05",
       "06/06",
       "20/06"
+    ]
+  },
+  {
+    "idTourney": 2,
+    "nameTourney": "Torneio 2017-2",
+    "jackpotAcumulate": 100,
+    "steps": [
+      "11/07",
+      "25/07",
+      "08/08",
+      "22/08",
+      "05/09",
+      "19/09"
     ]
   }
 ]

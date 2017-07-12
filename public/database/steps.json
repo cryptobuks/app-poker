@@ -407,4 +407,86 @@
     "score": 30,
     "jackpot": 180
   }
+
+  ,
+  {
+    "idTourney": 2,
+    "stepDate": "11/07",
+    "player": "chico",
+    "position": 1,
+    "score": 100,
+    "jackpot": 230
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "11/07",
+    "player": "luca",
+    "position": 2,
+    "score": 80,
+    "jackpot": 120
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "11/07",
+    "player": "felipe-chama",
+    "position": 3,
+    "score": 60,
+    "jackpot": 30
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "11/07",
+    "player": "eduardo-japa",
+    "position": 4,
+    "score": 50,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "11/07",
+    "player": "zoio",
+    "position": 5,
+    "score": 40,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "11/07",
+    "player": "raphael",
+    "position": 6,
+    "score": 35,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "11/07",
+    "player": "julio-bertini",
+    "position": 7,
+    "score": 30,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "11/07",
+    "player": "gaucho",
+    "position": 8,
+    "score": 25,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "11/07",
+    "player": "bruno-bertini",
+    "position": 9,
+    "score": 20,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 2,
+    "stepDate": "11/07",
+    "player": "gustavo-galrao",
+    "position": 10,
+    "score": 10,
+    "jackpot": 0
+  }
 ]
