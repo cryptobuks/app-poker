@@ -3,7 +3,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const validate = require('webpack-validator');
-const DashboardPlugin = require('webpack-dashboard/plugin');
 
 module.exports = validate({
   // Ajuda na hora de debugar
@@ -33,9 +32,7 @@ module.exports = validate({
 
   plugins: [
     // react-hot-loader
-    new webpack.HotModuleReplacementPlugin(),
-
-    new DashboardPlugin()
+    new webpack.HotModuleReplacementPlugin()
   ],
 
   module: {

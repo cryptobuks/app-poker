@@ -1,5 +1,5 @@
 {
-  "devDependencies": {
+  "dependencies": {
     "axios": "^0.15.3",
     "babel-core": "^6.22.1",
     "babel-jest": "^19.0.0",
@@ -14,11 +14,8 @@
     "react-hot-loader": "^3.0.0-beta.2",
     "react-tap-event-plugin": "^2.0.1",
     "webpack": "^2.2.1",
-    "webpack-dashboard": "^0.4.0",
     "webpack-dev-server": "^2.3.0",
-    "webpack-validator": "^2.3.0"
-  },
-  "dependencies": {
+    "webpack-validator": "^2.3.0",
     "css-loader": "^0.27.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -26,7 +23,7 @@
     "underscore": "^1.8.3"
   },
   "scripts": {
-    "start": "webpack-dashboard -- node server.js",
+    "start": "node server.js",
     "build": "webpack --progress --config webpack.prod.config -p",
     "serverProd": "webpack-dev-server --content-base public/",
     "test": "jest --env=jsdom --watch"
