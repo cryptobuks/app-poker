@@ -79,18 +79,21 @@ class Ranking extends React.Component {
       // Filtra somente etapas que jogador participou
       let stepsPlayer = _.filter(listSteps, (step) => step.player == player.slug);
 
-      // Calcula total de pontos de cada etapa
-      stepsPlayer.forEach((step) => scorePlayer += step.score);
+      // Adiciona jogador apenas se participou de alguma etapa neste torneio
+      if(stepsPlayer.length >= 1) {
+        // Calcula total de pontos de cada etapa
+        stepsPlayer.forEach((step) => scorePlayer += step.score);
 
-      // Calcula prêmios já recebidos de cada etapa
-      stepsPlayer.forEach((step) => jackpotPlayer += step.jackpot);
+        // Calcula prêmios já recebidos de cada etapa
+        stepsPlayer.forEach((step) => jackpotPlayer += step.jackpot);
 
-      rankingTurn.push({
-        slug: player.slug,
-        scoreAcumulate: scorePlayer,
-        jackpotAcumulate: jackpotPlayer,
-        steps: []
-      });
+        rankingTurn.push({
+          slug: player.slug,
+          scoreAcumulate: scorePlayer,
+          jackpotAcumulate: jackpotPlayer,
+          steps: []
+        });
+      }
     }
 
     // Ordenação por ordem decrescente
