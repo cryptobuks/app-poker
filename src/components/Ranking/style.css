@@ -1,9 +1,28 @@
 
-.title-ranking {
+.header-tourney {
+  position: relative;
+}
+
+.header-tourney .title {
   font-size: 13px;
   font-weight: bold;
   padding: 10px 24px;
   color: #afafaf !important;
+}
+
+.header-tourney .icon-rotate {
+  position: absolute;
+  top: 0 !important;
+  right: 0 !important;
+  width: 50px !important;
+  height: 35px !important;
+  position: absolute !important;
+}
+
+.header-tourney .icon-rotate button {
+  width: 100% !important;
+  min-width: 100% !important;
+  padding: 6px 12px 10px !important;
 }
 
 /* Tabela de Classificação */
@@ -13,7 +32,6 @@
 
 .ranking-table {
   display: block;
-  margin: 20px 0;
   width: 100%;
   max-width: 100%;
   font-size: 12px;
@@ -50,12 +68,12 @@
 .ranking-table tbody > tr:nth-child(even) > td,
 .ranking-table tbody > tr:nth-child(even) > th {
   color: #ffffff;
+  background-color: #303030;
 }
 
 .ranking-table tbody > tr:nth-child(odd) > td,
 .ranking-table tbody > tr:nth-child(odd) > th {
   color: #ffffff;
-  background-color: #303030;
 }
 
 .ranking-table thead,
@@ -94,34 +112,34 @@
   text-align: center;
 }
 
-/* Dados do torneio */
-.turn-info {
-  clear: both;
-  height: 36px;
+/* tabela na vertical */
+.table-vertical,
+.table-horizontal {
+  margin: 20px 0;
+  overflow-y: auto;
 }
 
-.turn-info-pot,
-.turn-info-date {
-  float: left;
-  width: auto;
-  height: 34px;
-  padding: 8px;
-  display: inline-block;
+.table-vertical .ranking-table thead,
+.table-vertical .ranking-table tbody,
+.table-vertical .ranking-table th,
+.table-vertical .ranking-table td,
+.table-vertical .ranking-table tr {
+  display: table-cell;
 }
 
-.turn-info-date {
-  float: right;
+.table-vertical .ranking-table thead {
+  float: none;
 }
 
-.turn-info .material-icons {
-  top: -3px;
-  float: left;
-  position: relative;
+.table-vertical .ranking-table thead tr {
+  display: table-row;
 }
 
-.turn-info-pot-text {
-  top: 2px;
-  float: left;
-  margin-left: 6px;
-  position: relative;
+.table-vertical .ranking-table tbody tr,
+.table-vertical .ranking-table tbody {
+  display: table-row;
+}
+
+.table-vertical .ranking-table tbody td {
+  display: table-cell;
 }

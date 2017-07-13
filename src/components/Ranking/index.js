@@ -7,12 +7,15 @@ import Loading from '../Loading'
 import utils from '../../utils'
 import Paper from 'material-ui/Paper'
 import FontIcon from 'material-ui/FontIcon'
+import {BottomNavigation, BottomNavigationItem} from 'material-ui/BottomNavigation'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme'
 import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import _ from 'underscore'
 
 import './style.css'
+
+const rotateTable = <FontIcon className="material-icons">screen_rotation</FontIcon>;
 
 class Ranking extends React.Component {
   constructor(props) {
@@ -22,8 +25,10 @@ class Ranking extends React.Component {
       turns: [],
       steps: [],
       players: {},
-      ranking: []
+      ranking: [],
+      tableLayout: 0
     }
+
 
     // setTimeout(() => {
       this.loadRanking();
@@ -134,6 +139,14 @@ class Ranking extends React.Component {
     });
   }
 
+
+  setLayoutTable() {
+    let layout = this.state.tableLayout == 1 ? 0 : 1;
+    this.setState({
+      tableLayout: layout
+    })
+  }
+
   render() {
     return(
       <div>
@@ -141,31 +154,43 @@ class Ranking extends React.Component {
           <Loading />
           :
           <div>
-            <div>
+            <div className="header-tourney">
               <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
-                <Paper className="title-ranking" zDepth={2}>
+                <Paper className="title" zDepth={2}>
                   Classificação {this.state.tourney.nameTourney}
                 </Paper>
               </MuiThemeProvider>
+
+              <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
+                <BottomNavigation className="icon-rotate" selectedIndex={this.state.tableLayout}>
+                  <BottomNavigationItem
+                    icon={rotateTable}
+                    onTouchTap={() => this.setLayoutTable()}
+                  />
+                </BottomNavigation>
+              </MuiThemeProvider>
             </div>
-            <table className="ranking-table">
-              <thead>
-                <tr>
-                  <th>Posição</th>
-                  <th className="ranking-table-name">Nome</th>
-                  <th>Pontos</th>
-                  {this.state.tourney.steps.map((step, key) => {
-                    return (
-                      <th key={key}>{step}</th>
-                    )
-                  })}
-                  <th>Prêmio</th>
-                </tr>
-              </thead>
 
-              <ListRanking players={this.state.players} listRanking={this.state.ranking} />
+            <div className={this.state.tableLayout == 1 ? 'table-vertical' : 'table-horizontal' }>
+              <table className="ranking-table">
+                <thead>
+                  <tr>
+                    <th>Posição</th>
+                    <th className="ranking-table-name">Nome</th>
+                    <th>Pontos</th>
+                    {this.state.tourney.steps.map((step, key) => {
+                      return (
+                        <th key={key}>{step}</th>
+                      )
+                    })}
+                    <th>Prêmio</th>
+                  </tr>
+                </thead>
 
-            </table>
+                <ListRanking players={this.state.players} listRanking={this.state.ranking} />
+
+              </table>
+            </div>
           </div>
         }
       </div>
