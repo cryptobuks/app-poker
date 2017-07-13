@@ -26,7 +26,7 @@ class Ranking extends React.Component {
       steps: [],
       players: {},
       ranking: [],
-      tableLayout: 0
+      tableLayout: 1
     }
 
 
@@ -176,7 +176,7 @@ class Ranking extends React.Component {
                 <thead>
                   <tr>
                     <th>Posição</th>
-                    <th className="ranking-table-name">Nome</th>
+                    <th className="ranking-table-name">Jogador</th>
                     <th>Pontos</th>
                     {this.state.tourney.steps.map((step, key) => {
                       return (

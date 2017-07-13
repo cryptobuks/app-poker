@@ -56,6 +56,11 @@
   white-space: normal;
 }
 
+.ranking-table .ranking-table-name .avatar {
+  margin-top: -20px;
+  margin-left: -8px;
+}
+
 .ranking-table td:last-child {
   border-right: 0;
 }
@@ -143,3 +148,8 @@
 .table-vertical .ranking-table tbody td {
   display: table-cell;
 }
+
+.table-vertical .ranking-table .ranking-table-name .avatar {
+  margin-top: -8px;
+}
+
