@@ -66,11 +66,11 @@ class Ranking extends React.Component {
    */
   createRanking() {
     // Último torneio cadastrado
-    const lastTourney = _.last(this.state.turns);
-    // console.log('lastTourney', lastTourney)
+    const tourney = _.last(this.state.turns);
+    // console.log('tourney', tourney)
 
     // Filtra etapas do torneio selecionado
-    const listSteps = _.filter(this.state.steps, (step) => step.idTourney == lastTourney.idTourney);
+    const listSteps = _.filter(this.state.steps, (step) => step.idTourney == tourney.idTourney);
     // console.log('listSteps', listSteps)
 
     // Calcula total de pontos dos jogadores
@@ -87,7 +87,10 @@ class Ranking extends React.Component {
       // Adiciona jogador apenas se participou de alguma etapa neste torneio
       if(stepsPlayer.length >= 1) {
         // Calcula total de pontos de cada etapa
-        stepsPlayer.forEach((step) => scorePlayer += step.score);
+        stepsPlayer.forEach((step) => {
+          let score = tourney.score[step.position] ? tourney.score[step.position] : tourney.score['default'];
+          scorePlayer += score;
+        });
 
         // Calcula prêmios já recebidos de cada etapa
         stepsPlayer.forEach((step) => jackpotPlayer += step.jackpot);
@@ -106,24 +109,24 @@ class Ranking extends React.Component {
 
     // Atualiza classificação do jogador em cada etapa
     rankingTurn.map((player) => {
-      for(var i = 0; i < lastTourney.steps.length; i++) {
+      for(var i = 0; i < tourney.steps.length; i++) {
         let position;
 
         // Verifica se etapa já ocorreu para preencher classificação do jogador
-        let findDate = _.find(listSteps, (step) => step.stepDate == lastTourney.steps[i]);
+        let findDate = _.find(listSteps, (step) => step.stepDate == tourney.steps[i]);
         if(findDate == undefined) {
           // Caso não tenha ocorrências da etapa,
           // não coloca status do jogador como 'out'
           position = '-';
         } else {
           // Procura classificação do jogador na etapa
-          position = _.filter(listSteps, (step) => step.stepDate == lastTourney.steps[i] && step.player == player.slug);
+          position = _.filter(listSteps, (step) => step.stepDate == tourney.steps[i] && step.player == player.slug);
           position = position[0] && position[0].position ? position[0].position : 'out';
         }
 
         // Adiciona etapa no ranking do jogador
         player.steps.push({
-          date: lastTourney.steps[i],
+          date: tourney.steps[i],
           position: position
         });
       }
@@ -134,7 +137,7 @@ class Ranking extends React.Component {
     // Ranking + Dados do torneio
     this.setState({
       ranking: rankingTurn,
-      tourney: lastTourney,
+      tourney: tourney,
       players: _.indexBy(this.state.players, 'slug')
     });
   }

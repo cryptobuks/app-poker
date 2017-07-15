@@ -4,7 +4,6 @@
     "stepDate": "18/04",
     "player": "zoio",
     "position": 2,
-    "score": 80,
     "jackpot": 0
   },
   {
@@ -12,7 +11,6 @@
     "stepDate": "18/04",
     "player": "gaucho",
     "position": 7,
-    "score": 30,
     "jackpot": 0
   },
   {
@@ -20,7 +18,6 @@
     "stepDate": "18/04",
     "player": "gustavo-galrao",
     "position": 3,
-    "score": 60,
     "jackpot": 0
   },
   {
@@ -28,7 +25,6 @@
     "stepDate": "18/04",
     "player": "felipe-chama",
     "position": 5,
-    "score": 40,
     "jackpot": 0
   },
   {
@@ -36,7 +32,6 @@
     "stepDate": "18/04",
     "player": "julio-bertini",
     "position": 4,
-    "score": 50,
     "jackpot": 0
   },
   {
@@ -44,7 +39,6 @@
     "stepDate": "18/04",
     "player": "chico",
     "position": 1,
-    "score": 100,
     "jackpot": 0
   },
   {
@@ -52,7 +46,6 @@
     "stepDate": "18/04",
     "player": "bruno-bertini",
     "position": 8,
-    "score": 25,
     "jackpot": 0
   },
   {
@@ -60,7 +53,6 @@
     "stepDate": "18/04",
     "player": "luca",
     "position": 6,
-    "score": 35,
     "jackpot": 0
   },
   {
@@ -68,7 +60,6 @@
     "stepDate": "18/04",
     "player": "gustavo-carpi",
     "position": 9,
-    "score": 20,
     "jackpot": 0
   },
   {
@@ -76,7 +67,6 @@
     "stepDate": "01/05",
     "player": "zoio",
     "position": 3,
-    "score": 60,
     "jackpot": 0
   },
   {
@@ -84,7 +74,6 @@
     "stepDate": "01/05",
     "player": "gaucho",
     "position": 5,
-    "score": 40,
     "jackpot": 0
   },
   {
@@ -92,7 +81,6 @@
     "stepDate": "01/05",
     "player": "gustavo-galrao",
     "position": 6,
-    "score": 35,
     "jackpot": 0
   },
   {
@@ -100,7 +88,6 @@
     "stepDate": "01/05",
     "player": "felipe-chama",
     "position": 8,
-    "score": 25,
     "jackpot": 0
   },
   {
@@ -108,7 +95,6 @@
     "stepDate": "01/05",
     "player": "julio-bertini",
     "position": 2,
-    "score": 80,
     "jackpot": 0
   },
   {
@@ -116,7 +102,6 @@
     "stepDate": "01/05",
     "player": "raphael",
     "position": 1,
-    "score": 100,
     "jackpot": 0
   },
   {
@@ -124,7 +109,6 @@
     "stepDate": "01/05",
     "player": "bruno-bertini",
     "position": 7,
-    "score": 30,
     "jackpot": 0
   },
   {
@@ -132,7 +116,6 @@
     "stepDate": "01/05",
     "player": "luca",
     "position": 4,
-    "score": 50,
     "jackpot": 0
   },
   {
@@ -140,7 +123,6 @@
     "stepDate": "01/05",
     "player": "ze",
     "position": 9,
-    "score": 20,
     "jackpot": 0
   },
   {
@@ -148,7 +130,6 @@
     "stepDate": "01/05",
     "player": "japa",
     "position": 10,
-    "score": 10,
     "jackpot": 0
   },
   {
@@ -156,7 +137,6 @@
     "stepDate": "16/05",
     "player": "zoio",
     "position": 4,
-    "score": 50,
     "jackpot": 0
   },
   {
@@ -164,7 +144,6 @@
     "stepDate": "16/05",
     "player": "gaucho",
     "position": 1,
-    "score": 100,
     "jackpot": 0
   },
   {
@@ -172,7 +151,6 @@
     "stepDate": "16/05",
     "player": "gustavo-galrao",
     "position": 2,
-    "score": 80,
     "jackpot": 0
   },
   {
@@ -180,7 +158,6 @@
     "stepDate": "16/05",
     "player": "felipe-chama",
     "position": 3,
-    "score": 60,
     "jackpot": 0
   },
   {
@@ -188,7 +165,6 @@
     "stepDate": "16/05",
     "player": "raphael",
     "position": 5,
-    "score": 40,
     "jackpot": 0
   },
   {
@@ -196,7 +172,6 @@
     "stepDate": "16/05",
     "player": "bruno-bertini",
     "position": 7,
-    "score": 30,
     "jackpot": 0
   },
   {
@@ -204,7 +179,6 @@
     "stepDate": "25/05",
     "player": "zoio",
     "position": 2,
-    "score": 80,
     "jackpot": 0
   },
   {
@@ -212,7 +186,6 @@
     "stepDate": "25/05",
     "player": "gaucho",
     "position": 1,
-    "score": 100,
     "jackpot": 0
   },
   {
@@ -220,7 +193,6 @@
     "stepDate": "25/05",
     "player": "gustavo-galrao",
     "position": 4,
-    "score": 50,
     "jackpot": 0
   },
   {
@@ -228,7 +200,6 @@
     "stepDate": "25/05",
     "player": "felipe-chama",
     "position": 7,
-    "score": 30,
     "jackpot": 0
   },
   {
@@ -236,7 +207,6 @@
     "stepDate": "25/05",
     "player": "julio-bertini",
     "position": 3,
-    "score": 60,
     "jackpot": 0
   },
   {
@@ -244,7 +214,6 @@
     "stepDate": "25/05",
     "player": "raphael",
     "position": 8,
-    "score": 25,
     "jackpot": 0
   },
   {
@@ -252,7 +221,6 @@
     "stepDate": "25/05",
     "player": "bruno-bertini",
     "position": 5,
-    "score": 40,
     "jackpot": 0
   },
   {
@@ -260,7 +228,6 @@
     "stepDate": "25/05",
     "player": "luca",
     "position": 6,
-    "score": 35,
     "jackpot": 0
   },
   {
@@ -268,7 +235,6 @@
     "stepDate": "06/06",
     "player": "zoio",
     "position": 4,
-    "score": 50,
     "jackpot": 0
   },
   {
@@ -276,7 +242,6 @@
     "stepDate": "06/06",
     "player": "gaucho",
     "position": 2,
-    "score": 80,
     "jackpot": 0
   },
   {
@@ -284,7 +249,6 @@
     "stepDate": "06/06",
     "player": "gustavo-galrao",
     "position": 3,
-    "score": 60,
     "jackpot": 0
   },
   {
@@ -292,7 +256,6 @@
     "stepDate": "06/06",
     "player": "felipe-chama",
     "position": 1,
-    "score": 100,
     "jackpot": 0
   },
   {
@@ -300,7 +263,6 @@
     "stepDate": "06/06",
     "player": "julio-bertini",
     "position": 8,
-    "score": 25,
     "jackpot": 0
   },
   {
@@ -308,7 +270,6 @@
     "stepDate": "06/06",
     "player": "chico",
     "position": 5,
-    "score": 40,
     "jackpot": 0
   },
   {
@@ -316,7 +277,6 @@
     "stepDate": "06/06",
     "player": "raphael",
     "position": 9,
-    "score": 20,
     "jackpot": 0
   },
   {
@@ -324,7 +284,6 @@
     "stepDate": "06/06",
     "player": "bruno-bertini",
     "position": 6,
-    "score": 35,
     "jackpot": 0
   },
   {
@@ -332,7 +291,6 @@
     "stepDate": "06/06",
     "player": "luca",
     "position": 7,
-    "score": 30,
     "jackpot": 0
   },
   {
@@ -340,7 +298,6 @@
     "stepDate": "20/06",
     "player": "zoio",
     "position": 1,
-    "score": 100,
     "jackpot": 420
   },
   {
@@ -348,7 +305,6 @@
     "stepDate": "20/06",
     "player": "gaucho",
     "position": 3,
-    "score": 60,
     "jackpot": 410
   },
   {
@@ -356,7 +312,6 @@
     "stepDate": "20/06",
     "player": "gustavo-galrao",
     "position": 5,
-    "score": 40,
     "jackpot": 325
   },
   {
@@ -364,7 +319,6 @@
     "stepDate": "20/06",
     "player": "felipe-chama",
     "position": 8,
-    "score": 25,
     "jackpot": 280
   },
   {
@@ -372,7 +326,6 @@
     "stepDate": "20/06",
     "player": "julio-bertini",
     "position": 9,
-    "score": 20,
     "jackpot": 235
   },
   {
@@ -380,7 +333,6 @@
     "stepDate": "20/06",
     "player": "chico",
     "position": 2,
-    "score": 80,
     "jackpot": 220
   },
   {
@@ -388,7 +340,6 @@
     "stepDate": "20/06",
     "player": "raphael",
     "position": 6,
-    "score": 35,
     "jackpot": 220
   },
   {
@@ -396,7 +347,6 @@
     "stepDate": "20/06",
     "player": "bruno-bertini",
     "position": 4,
-    "score": 50,
     "jackpot": 210
   },
   {
@@ -404,7 +354,6 @@
     "stepDate": "20/06",
     "player": "luca",
     "position": 7,
-    "score": 30,
     "jackpot": 180
   }
 
@@ -414,7 +363,6 @@
     "stepDate": "11/07",
     "player": "chico",
     "position": 1,
-    "score": 100,
     "jackpot": 230
   },
   {
@@ -422,7 +370,6 @@
     "stepDate": "11/07",
     "player": "luca",
     "position": 2,
-    "score": 80,
     "jackpot": 120
   },
   {
@@ -430,7 +377,6 @@
     "stepDate": "11/07",
     "player": "felipe-chama",
     "position": 3,
-    "score": 60,
     "jackpot": 30
   },
   {
@@ -438,7 +384,6 @@
     "stepDate": "11/07",
     "player": "eduardo-japa",
     "position": 4,
-    "score": 50,
     "jackpot": 0
   },
   {
@@ -446,7 +391,6 @@
     "stepDate": "11/07",
     "player": "zoio",
     "position": 5,
-    "score": 40,
     "jackpot": 0
   },
   {
@@ -454,7 +398,6 @@
     "stepDate": "11/07",
     "player": "raphael",
     "position": 6,
-    "score": 35,
     "jackpot": 0
   },
   {
@@ -462,7 +405,6 @@
     "stepDate": "11/07",
     "player": "julio-bertini",
     "position": 7,
-    "score": 30,
     "jackpot": 0
   },
   {
@@ -470,7 +412,6 @@
     "stepDate": "11/07",
     "player": "gaucho",
     "position": 8,
-    "score": 25,
     "jackpot": 0
   },
   {
@@ -478,7 +419,6 @@
     "stepDate": "11/07",
     "player": "bruno-bertini",
     "position": 9,
-    "score": 20,
     "jackpot": 0
   },
   {
@@ -486,7 +426,6 @@
     "stepDate": "11/07",
     "player": "gustavo-galrao",
     "position": 10,
-    "score": 10,
     "jackpot": 0
   }
 ]
