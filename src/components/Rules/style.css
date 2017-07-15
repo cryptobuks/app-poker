@@ -1,0 +1,20 @@
+.rules p {
+  color: #fff;
+  margin: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.rules .last-update {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.rules .number {
+  color: #303030;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  top: 4px;
+}

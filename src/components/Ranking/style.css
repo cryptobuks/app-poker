@@ -3,13 +3,6 @@
   position: relative;
 }
 
-.header-tourney .title {
-  font-size: 13px;
-  font-weight: bold;
-  padding: 10px 24px;
-  color: #afafaf !important;
-}
-
 .header-tourney .icon-rotate {
   position: absolute;
   top: 0 !important;

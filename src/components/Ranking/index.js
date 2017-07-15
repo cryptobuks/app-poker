@@ -5,12 +5,12 @@ import api from '../../libs/api'
 import ListRanking from '../ListRanking'
 import Loading from '../Loading'
 import utils from '../../utils'
-import Paper from 'material-ui/Paper'
 import FontIcon from 'material-ui/FontIcon'
 import {BottomNavigation, BottomNavigationItem} from 'material-ui/BottomNavigation'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme'
 import getMuiTheme from 'material-ui/styles/getMuiTheme'
+import SubtitleBar from '../SubtitleBar'
 import _ from 'underscore'
 
 import './style.css'
@@ -158,11 +158,7 @@ class Ranking extends React.Component {
           :
           <div>
             <div className="header-tourney">
-              <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
-                <Paper className="title" zDepth={2}>
-                  Classificação {this.state.tourney.nameTourney}
-                </Paper>
-              </MuiThemeProvider>
+              <SubtitleBar text={'Classificação ' + this.state.tourney.nameTourney} />
 
               <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
                 <BottomNavigation className="icon-rotate" selectedIndex={this.state.tableLayout}>
