@@ -1,0 +1,26 @@
+{
+  "short_name": "Poker Brothers",
+  "name": "Poker Brothers",
+  "background_color": "#0097a7",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#303030",
+  "start_url": "/app-poker/?launcher=true",
+  "icons": [
+    {
+      "src": "images/icon-poker-brothers-48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/icon-poker-brothers-96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/icon-poker-brothers-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}

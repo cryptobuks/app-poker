@@ -7,7 +7,7 @@
 
 ### Para produção
 * ``yarn build`` gera bundle para produção na pasta **public**
-* ``yarn serverPublic`` sobe servidor para testar o bundle gerado na pasta **public**
+* ``yarn serverProd`` sobe servidor para testar o bundle gerado na pasta **public**
 
 ## Parte 1:
 * Criar ambiente (webpack + react + jsx): **OK**
