@@ -99,13 +99,11 @@ class Ranking extends React.Component {
           slug: player.slug,
           scoreAcumulate: scorePlayer,
           jackpotAcumulate: jackpotPlayer,
-          steps: []
+          steps: [],
+          stepsPositions: []
         });
       }
     }
-
-    // Ordenação por ordem decrescente
-    rankingTurn = _.sortBy(rankingTurn, 'scoreAcumulate').reverse();
 
     // Atualiza classificação do jogador em cada etapa
     rankingTurn.map((player) => {
@@ -129,8 +127,39 @@ class Ranking extends React.Component {
           date: tourney.steps[i],
           position: position
         });
+
+        // Array de posições para auxiliar no critério de desempate
+        if(!isNaN(position)) {
+          player.stepsPositions.push(position);
+        }
       }
     })
+
+    // Ordenação por ordem decrescente
+    rankingTurn = _.sortBy(rankingTurn, (player) => -player.scoreAcumulate);
+
+    // Verifica jogadores com mesma pontuação acumulada
+    // Regra:
+    // Caso o jogador 1 esteja com a mesma pontuação do jogador 2,
+    // compara as posições dos jogadores de cada etapa e quem tiver a
+    // melhor posição, vai ficar na frente na tabela.
+    for(var i = 0; i < rankingTurn.length; i++) {
+      // verifica jogador com o próximo na tabela
+      if(rankingTurn[i+1] && rankingTurn[i].scoreAcumulate == rankingTurn[i+1].scoreAcumulate) {
+        // pega posição das etapas e ordena por ordem crescente
+        rankingTurn[i].stepsPositions = _.sortBy(rankingTurn[i].stepsPositions);
+        rankingTurn[i+1].stepsPositions = _.sortBy(rankingTurn[i+1].stepsPositions);
+
+        // ordena jogadores de acordo com resultados da posição de cada etapa
+        let players = _.sortBy([rankingTurn[i], rankingTurn[i+1]], function(player) {
+          return player.stepsPositions
+        });
+
+        // edita a tabela baseado nos 2 jogadores ordenados
+        rankingTurn[i] = players[0];
+        rankingTurn[i+1] = players[1];
+      }
+    }
 
     // console.log('rankingTurn ', rankingTurn)
 
