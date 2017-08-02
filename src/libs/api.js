@@ -9,20 +9,21 @@ if(process.env.NODE_ENV == 'production') {
 }
 
 const API = {
+  noCache: Math.floor(Math.random() * 10000),
 
   // Torneios
   getTournaments: () => {
-    return axios.get(pathDatabase + 'database/tournaments.json');
+    return axios.get(pathDatabase + 'database/tournaments.json?' + API.noCache);
   },
 
   // Etapas cadastradas
   getSteps: () => {
-    return axios.get(pathDatabase + 'database/steps.json');
+    return axios.get(pathDatabase + 'database/steps.json?' + API.noCache);
   },
 
   // Jogadores
   getPlayers: () => {
-    return axios.get(pathDatabase + 'database/players.json');
+    return axios.get(pathDatabase + 'database/players.json?' + API.noCache);
   }
 }
 
