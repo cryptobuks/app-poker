@@ -1,4 +1,17 @@
 {
+  "name": "app-poker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipechama/app-poker.git"
+  },
+  "author": "Felipe Chama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipechama/app-poker/issues"
+  },
   "dependencies": {
     "axios": "^0.15.3",
     "babel-core": "^6.22.1",
