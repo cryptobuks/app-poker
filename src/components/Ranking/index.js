@@ -11,11 +11,14 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme'
 import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import SubtitleBar from '../SubtitleBar'
+import {Tabs, Tab} from 'material-ui/Tabs'
 import _ from 'underscore'
 
 import './style.css'
 
 const rotateTable = <FontIcon className="material-icons">screen_rotation</FontIcon>;
+const tabRanking = <FontIcon className="material-icons">assessment</FontIcon>;
+const tabInfo = <FontIcon className="material-icons">announcement</FontIcon>;
 
 class Ranking extends React.Component {
   constructor(props) {
@@ -26,7 +29,8 @@ class Ranking extends React.Component {
       steps: [],
       players: {},
       ranking: [],
-      tableLayout: 1
+      tableLayout: 1,
+      tabActive: 'ranking'
     }
 
 
@@ -179,6 +183,12 @@ class Ranking extends React.Component {
     })
   }
 
+  tabChange(e) {
+    this.setState({
+      tabActive: e.currentTarget.dataset.value
+    })
+  }
+
   render() {
     return(
       <div>
@@ -199,26 +209,59 @@ class Ranking extends React.Component {
               </MuiThemeProvider>
             </div>
 
-            <div className={this.state.tableLayout == 1 ? 'table-vertical' : 'table-horizontal' }>
-              <table className="ranking-table">
-                <thead>
-                  <tr>
-                    <th>Posição</th>
-                    <th className="ranking-table-name">Jogador</th>
-                    <th>Pontos</th>
-                    {this.state.tourney.steps.map((step, key) => {
-                      return (
-                        <th key={key}>{step}</th>
-                      )
-                    })}
-                    <th>Prêmio</th>
-                  </tr>
-                </thead>
+          <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
+            <Tabs className="tabs" value={this.state.tabActive}>
+              <Tab icon={tabRanking} value="ranking" data-value="ranking" onClick={this.tabChange.bind(this)}>
+                <div className={this.state.tableLayout == 1 ? 'table-vertical' : 'table-horizontal' }>
+                  <table className="ranking-table">
+                    <thead>
+                      <tr>
+                        <th>Posição</th>
+                        <th className="ranking-table-name">Jogador</th>
+                        <th>Pontos</th>
+                        {this.state.tourney.steps.map((step, key) => {
+                          return (
+                            <th key={key}>{step}</th>
+                          )
+                        })}
+                        <th>Prêmio</th>
+                      </tr>
+                    </thead>
 
-                <ListRanking players={this.state.players} listRanking={this.state.ranking} />
+                    <ListRanking players={this.state.players} listRanking={this.state.ranking} />
+                  </table>
+                </div>
+              </Tab>
 
-              </table>
-            </div>
+              <Tab icon={tabInfo} value="info-ranking" data-value="info-ranking" onClick={this.tabChange.bind(this)}>
+                <div>
+                  <div className="info-header">
+                    <p>Pote</p>
+                  </div>
+                  <p className="info-text">
+                    <span className="info-text-item">R$</span> 100,00
+                  </p>
+
+                  <div className="info-header">
+                    Pontuação
+                  </div>
+                  <p className="info-text">
+                    <span className="info-text-item">1º</span> 100 pontos <br />
+                    <span className="info-text-item">2º</span> 80 pontos <br />
+                    <span className="info-text-item">3º</span> 60 pontos <br />
+                    <span className="info-text-item">4º</span> 50 pontos <br />
+                    <span className="info-text-item">5º</span> 40 pontos <br />
+                    <span className="info-text-item">6º</span> 35 pontos <br />
+                    <span className="info-text-item">7º</span> 30 pontos <br />
+                    <span className="info-text-item">8º</span> 25 pontos <br />
+                    <span className="info-text-item">9º</span> 20 pontos <br />
+                    <span className="info-text-item">10º ou mais</span> 10 pontos <br />
+                  </p>
+                </div>
+              </Tab>
+            </Tabs>
+          </MuiThemeProvider>
+
           </div>
         }
       </div>

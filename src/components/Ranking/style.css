@@ -18,6 +18,10 @@
   padding: 6px 12px 10px !important;
 }
 
+.tabs {
+  margin-top: 20px;
+}
+
 /* Tabela de Classificação */
 .ranking-table * {
   box-sizing: initial;
@@ -60,7 +64,8 @@
 
 .ranking-table thead th {
   font-weight: normal;
-  background-color: #0097a7;
+  color: #aaa;
+  background-color: #3e3e3e;
 }
 
 .ranking-table tbody > tr:nth-child(even) > td,
@@ -113,7 +118,6 @@
 /* tabela na vertical */
 .table-vertical,
 .table-horizontal {
-  margin: 20px 0;
   overflow-y: auto;
 }
 
@@ -146,3 +150,23 @@
   margin-top: -8px;
 }
 
+/* info */
+.info-header {
+  color: #aaa;
+  font-size: 12px;
+  padding: 16px 24px;
+  font-weight: bold;
+  background-color: #3e3e3e;
+}
+
+.info-text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 16px 24px;
+}
+
+.info-text-item {
+  color: #303030;
+  font-weight: bold;
+}
