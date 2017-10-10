@@ -793,4 +793,258 @@
     "position": 10,
     "jackpot": 0
   }
+
+  ,
+  {
+    "idTourney": 3,
+    "stepDate": "09/10",
+    "player": "gustavo-galrao",
+    "position": 1,
+    "jackpot": 230
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "09/10",
+    "player": "chico",
+    "position": 2,
+    "jackpot": 100
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "09/10",
+    "player": "bruno-bertini",
+    "position": 3,
+    "jackpot": 30
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "09/10",
+    "player": "raphael",
+    "position": 4,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "09/10",
+    "player": "gaucho",
+    "position": 5,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "09/10",
+    "player": "julio-bertini",
+    "position": 6,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "09/10",
+    "player": "eduardo-japa",
+    "position": 7,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "09/10",
+    "player": "luca",
+    "position": 8,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "09/10",
+    "player": "zoio",
+    "position": 9,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "09/10",
+    "player": "felipe-chama",
+    "position": 10,
+    "jackpot": 0
+  }
+
+  ,
+  {
+    "idTourney": 3,
+    "stepDate": "24/10",
+    "player": "raphael",
+    "position": 1,
+    "jackpot": 230
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "24/10",
+    "player": "chico",
+    "position": 2,
+    "jackpot": 120
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "24/10",
+    "player": "bruno-bertini",
+    "position": 3,
+    "jackpot": 30
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "24/10",
+    "player": "gustavo-galrao",
+    "position": 4,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "24/10",
+    "player": "julio-bertini",
+    "position": 5,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "24/10",
+    "player": "luca",
+    "position": 6,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "24/10",
+    "player": "eduardo-japa",
+    "position": 7,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "24/10",
+    "player": "felipe-chama",
+    "position": 8,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "24/10",
+    "player": "gaucho",
+    "position": 9,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "24/10",
+    "player": "zoio",
+    "position": 10,
+    "jackpot": 0
+  }
+
+  ,
+  {
+    "idTourney": 3,
+    "stepDate": "06/11",
+    "player": "raphael",
+    "position": 1,
+    "jackpot": 200
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "06/11",
+    "player": "zoio",
+    "position": 2,
+    "jackpot": 90
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "06/11",
+    "player": "luca",
+    "position": 3,
+    "jackpot": 30
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "06/11",
+    "player": "bruno-bertini",
+    "position": 4,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "06/11",
+    "player": "gaucho",
+    "position": 5,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "06/11",
+    "player": "julio-bertini",
+    "position": 6,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "06/11",
+    "player": "felipe-chama",
+    "position": 7,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "06/11",
+    "player": "gustavo-galrao",
+    "position": 8,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "06/11",
+    "player": "chico",
+    "position": 9,
+    "jackpot": 0
+  }
+
+
+  ,
+  {
+    "idTourney": 3,
+    "stepDate": "21/11",
+    "player": "gustavo-galrao",
+    "position": 1,
+    "jackpot": 200
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "21/11",
+    "player": "raphael",
+    "position": 2,
+    "jackpot": 40
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "21/11",
+    "player": "zoio",
+    "position": 3,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "21/11",
+    "player": "julio-bertini",
+    "position": 4,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "21/11",
+    "player": "bruno-bertini",
+    "position": 5,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 3,
+    "stepDate": "21/11",
+    "player": "luca",
+    "position": 6,
+    "jackpot": 0
+  }
 ]

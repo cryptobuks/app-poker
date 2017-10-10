@@ -11,6 +11,12 @@ import GalleryChampions from './components/GalleryChampions'
 
 import './app.css'
 
+let pathPublic = '';
+
+if(process.env.NODE_ENV == 'production') {
+  pathPublic = '/app-poker'
+}
+
 class App extends React.Component {
   render() {
     return (
@@ -18,9 +24,9 @@ class App extends React.Component {
         <div>
           <TopBar />
 
-          <Route exact path='/' component={Ranking} />
-          <Route path='/regras' component={Rules} />
-          <Route path='/galeria-campeoes' component={GalleryChampions} />
+          <Route exact path={pathPublic + '/'} component={Ranking} />
+          <Route path={pathPublic + '/regras'} component={Rules} />
+          <Route path={pathPublic + '/galeria-campeoes'} component={GalleryChampions} />
 
           <BottomNav />
         </div>

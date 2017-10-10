@@ -239,7 +239,7 @@ class Ranking extends React.Component {
                     <p>Pote</p>
                   </div>
                   <p className="info-text">
-                    <span className="info-text-item">R$</span> 100,00
+                    <span className="info-text-item">R$</span> {utils.formatToReal(this.state.tourney.jackpotAcumulate)}
                   </p>
 
                   <div className="info-header">
