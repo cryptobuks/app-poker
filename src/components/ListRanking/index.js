@@ -7,6 +7,12 @@ import Avatar from 'material-ui/Avatar'
 import IconButton from 'material-ui/IconButton'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
+let pathPublic = '/public/';
+
+if(process.env.NODE_ENV == 'production') {
+  pathPublic = ''
+}
+
 class ListRanking extends React.Component {
 
   render() {
@@ -23,7 +29,7 @@ class ListRanking extends React.Component {
                       tooltipPosition="top-center"
                       tooltip={this.props.players[player.slug].name}
                     >
-                      <Avatar className="avatar" src={this.props.players[player.slug].avatar} />
+                      <Avatar className="avatar" src={pathPublic + 'images/players/' + this.props.players[player.slug].avatar + '.jpg'} />
                     </IconButton>
                   </MuiThemeProvider>
                 </td>
