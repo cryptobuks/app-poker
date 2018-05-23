@@ -2,3 +2,4 @@ node_modules
 public/assets
 npm-debug*
 yarn.lock
+.DS_Store
